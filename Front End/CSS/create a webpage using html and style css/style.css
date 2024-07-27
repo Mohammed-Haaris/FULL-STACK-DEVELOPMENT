@@ -41,7 +41,7 @@ input {
   border-radius: 10px;
   width: 550px;
   height: 40px;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 button {
@@ -63,7 +63,6 @@ button:hover {
 
 input:hover {
   border-color: #0049b7;
-  cursor: pointer;
 }
 
 .image1 {
@@ -135,6 +134,17 @@ input:hover {
   margin-right: 70px;
   margin-top: 200px;
 }
+ 
+.image8{ 
+  border-width: 0px;
+  border-style: solid;
+  display: inline-block;
+  width: 200px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 200px;
+}
+
 
 .image1:hover {
   color: #0049b7;
@@ -169,4 +179,9 @@ input:hover {
 .image7:hover {
   color: #0049b7;
   cursor: pointer;
+}
+
+.image8:hover{
+  color: #0049b7;
+  cursor:pointer;
 }
