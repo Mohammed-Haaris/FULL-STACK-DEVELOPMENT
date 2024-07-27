@@ -10,7 +10,7 @@ nav {
   color: whitesmoke;
   padding: 70px;
   border-color: black;
-  border-width: 2px;
+  border-width: 0px;
   border-style: solid;
 }
 
@@ -63,6 +63,14 @@ button:hover {
 
 input:hover {
   border-color: #0049b7;
+}
+
+.header {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 300%;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .image1 {
@@ -134,8 +142,8 @@ input:hover {
   margin-right: 70px;
   margin-top: 200px;
 }
- 
-.image8{ 
+
+.image8 {
   border-width: 0px;
   border-style: solid;
   display: inline-block;
@@ -144,7 +152,6 @@ input:hover {
   margin-right: 70px;
   margin-top: 200px;
 }
-
 
 .image1:hover {
   color: #0049b7;
@@ -181,7 +188,19 @@ input:hover {
   cursor: pointer;
 }
 
-.image8:hover{
+.image8:hover {
   color: #0049b7;
-  cursor:pointer;
+  cursor: pointer;
+}
+
+.heading {
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+  background-color: #0049b7;
+  margin-top: 100px;
+  color: whitesmoke;
+  padding: 20px;
 }
