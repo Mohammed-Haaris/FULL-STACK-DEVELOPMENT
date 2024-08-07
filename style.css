@@ -1,0 +1,75 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100&family=Roboto&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: open sans;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h1 {
+  font-family: roboto;
+  padding-left: 70px;
+  color: skyblue;
+  letter-spacing: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-center {
+  box-shadow: 1px 3px 5px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+.container {
+  background-color: black;
+  color: whitesmoke;
+  width: 400px;
+  padding: 50px;
+  margin: 0 auto;
+  margin-top: 200px;
+  border-radius: 10px;
+  font-family: roboto;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 9px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  border-color: black;
+  font-family: roboto;
+  letter-spacing: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: grey;
+}
+
+.color {
+  color: aqua;
+}
