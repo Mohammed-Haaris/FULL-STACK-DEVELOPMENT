@@ -8,7 +8,7 @@
 nav {
   background-color: #0049b7;
   color: whitesmoke;
-  padding: 70px;
+  padding: 30px;
   border-color: black;
   border-width: 0px;
   border-style: solid;
@@ -23,15 +23,18 @@ li {
 h1 {
   font-size: xx-large;
   margin-top: 100px;
+  font-family: sans-serif;
 }
 ul {
   padding-left: 40%;
   font-size: x-large;
+  font-family: sans-serif;
 }
 
 li:hover {
   color: skyblue;
   cursor: pointer;
+  font-family: sans-serif;
 }
 
 input {
@@ -42,6 +45,7 @@ input {
   width: 550px;
   height: 40px;
   font-size: x-large;
+  font-family: sans-serif;
 }
 
 button {
@@ -59,6 +63,7 @@ button:hover {
   padding: 50px;
   text-align: center;
   margin-top: 90px;
+  font-family: sans-serif;
 }
 
 input:hover {
@@ -67,10 +72,17 @@ input:hover {
 
 .header {
   text-align: center;
-  margin-top: 90px;
-  font-size: 300%;
+  margin-top: 60px;
+  font-size: 150%;
   margin-left: 50px;
   margin-right: 50px;
+  font-family: sans-serif;
+}
+
+.cricket {
+  padding-top: 80px;
+  width: 500px;
+  height: 500px;
 }
 
 .image1 {
@@ -81,6 +93,8 @@ input:hover {
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 200px;
+  font-family: fantasy;
+  text-align: center;
 }
 
 .image2 {
@@ -91,6 +105,8 @@ input:hover {
   margin-left: 70px;
   margin-right: 70px;
   margin-top: 200px;
+  font-family: fantasy;
+  text-align: center;
 }
 
 .image3 {
@@ -101,6 +117,8 @@ input:hover {
   margin-left: 70px;
   margin-right: 70px;
   margin-top: 200px;
+  font-family: fantasy;
+  text-align: center;
 }
 
 .image4 {
@@ -111,6 +129,8 @@ input:hover {
   margin-left: 70px;
   margin-right: 70px;
   margin-top: 200px;
+  font-family: fantasy;
+  text-align: center;
 }
 
 .image5 {
@@ -121,6 +141,8 @@ input:hover {
   margin-left: 70px;
   margin-right: 70px;
   margin-top: 200px;
+  font-family: fantasy;
+  text-align: center;
 }
 
 .image6 {
@@ -131,6 +153,8 @@ input:hover {
   margin-left: 70px;
   margin-right: 70px;
   margin-top: 200px;
+  font-family: fantasy;
+  text-align: center;
 }
 
 .image7 {
@@ -141,6 +165,8 @@ input:hover {
   margin-left: 70px;
   margin-right: 70px;
   margin-top: 200px;
+  font-family: fantasy;
+  text-align: center;
 }
 
 .image8 {
@@ -151,6 +177,8 @@ input:hover {
   margin-left: 70px;
   margin-right: 70px;
   margin-top: 200px;
+  font-family: fantasy;
+  text-align: center;
 }
 
 .image1:hover {
@@ -203,4 +231,10 @@ input:hover {
   margin-top: 100px;
   color: whitesmoke;
   padding: 20px;
+}
+
+.paragraph {
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 20px;
 }

@@ -1,0 +1,132 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100&family=Roboto&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(127, 152, 152);
+}
+
+li {
+  display: inline;
+  font-family: roboto;
+  padding-left: 30px;
+  padding-right: 50px;
+  font-weight: 600px;
+  font-size: 25px;
+  color: white;
+}
+
+li:hover {
+  cursor: pointer;
+  color: green;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  cursor: pointer;
+  color: green;
+}
+.header1 {
+  font-family: roboto;
+  letter-spacing: 10px;
+  padding-left: 150px;
+  color: white;
+}
+
+.nav-bar {
+  display: flex;
+  box-shadow: 1px 3px 5px;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: black;
+}
+
+.form-container {
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 50px;
+  width: 400px;
+  font-family: montserrat;
+  font-weight: 700;
+  background-color: #5d5d5d5c;
+  color: #333;
+
+  margin-bottom: 60px;
+}
+
+.h3 {
+  margin-bottom: 30px;
+  font-size: xx-large;
+  font-family: montserrat;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.flex3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.flex4 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.flex5 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.flex6 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.select {
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 0;
+}
+
+.input {
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 0;
+  font-family: montserrat;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
